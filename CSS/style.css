@@ -1,0 +1,96 @@
+ul li {
+  list-style: none !important;
+}
+
+*::selection {
+  color: #fff;
+  background-color: brown;
+}
+
+.name {
+  font-size: 23pt;
+}
+
+.job {
+  font-size: 12pt;
+}
+
+.icon {
+  transition: 500ms;
+}
+
+.contacts li > a {
+  transition: 500ms;
+}
+
+.contacts {
+  font-size: 10pt;
+}
+.contacts li > a:hover {
+  font-size: 12pt;
+  color: brown !important;
+  margin: 10px;
+}
+.contacts li > a:hover .icon {
+  transition: 500ms;
+  transform: scale(1.5, 1.5);
+}
+
+.sixteen p {
+  font-weight: 500;
+}
+
+.container {
+  padding: 20px;
+  transition: all 500ms;
+  border: 1px solid black;
+}
+.container:hover {
+  box-shadow: 0 0 10px rgba(165, 42, 42, 0.64);
+}
+
+.progress-bar {
+  width: 100%;
+  height: 5px;
+  border-radius: 2px;
+  background: rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.progress-bar .progress-bar__progress {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background: brown;
+}
+.progress-bar .second {
+  width: 65%;
+}
+.progress-bar .three {
+  width: 60%;
+}
+.progress-bar .four {
+  width: 80%;
+}
+.progress-bar .five {
+  width: 70%;
+}
+
+.title__progress-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.title__progress-bar p {
+  margin: 20px 0 5px 0;
+}
+
+.ten li {
+  margin: 20px 0 0 0;
+}
+.ten li:before {
+  display: none;
+}
+.ten .container {
+  width: 100%;
+  margin: 20px 0 0 -20px;
+}
