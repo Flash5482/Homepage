@@ -94,3 +94,35 @@ ul li {
   width: 100%;
   margin: 20px 0 0 -20px;
 }
+
+.fat.divider {
+  border: none;
+  background: #000;
+  width: 100%;
+  height: 4px;
+  border-radius: 3px;
+  position: relative;
+}
+.fat.divider .pro {
+  position: absolute;
+  left: 0;
+  width: 5%;
+  height: 100%;
+  background: black;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7462156489) 0%, brown 66%);
+  animation-name: progrecBox;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-play-state: running;
+}
+
+@keyframes progrecBox {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 95%;
+  }
+}
