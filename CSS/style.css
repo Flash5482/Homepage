@@ -1,7 +1,3 @@
-ul li {
-  list-style: none !important;
-}
-
 *::selection {
   color: #fff;
   background-color: brown;
@@ -26,11 +22,13 @@ ul li {
 .contacts {
   font-size: 10pt;
 }
+
 .contacts li > a:hover {
   font-size: 12pt;
   color: brown !important;
   margin: 10px;
 }
+
 .contacts li > a:hover .icon {
   transition: 500ms;
   transform: scale(1.5, 1.5);
@@ -45,6 +43,7 @@ ul li {
   transition: all 500ms;
   border: 1px solid black;
 }
+
 .container:hover {
   box-shadow: 0 0 10px rgba(165, 42, 42, 0.64);
 }
@@ -56,6 +55,7 @@ ul li {
   background: rgba(0, 0, 0, 0.2);
   position: relative;
 }
+
 .progress-bar .progress-bar__progress {
   position: absolute;
   left: 0;
@@ -63,15 +63,19 @@ ul li {
   width: 50%;
   background: brown;
 }
+
 .progress-bar .second {
   width: 65%;
 }
+
 .progress-bar .three {
   width: 60%;
 }
+
 .progress-bar .four {
   width: 80%;
 }
+
 .progress-bar .five {
   width: 70%;
 }
@@ -80,6 +84,7 @@ ul li {
   display: flex;
   justify-content: space-between;
 }
+
 .title__progress-bar p {
   margin: 20px 0 5px 0;
 }
@@ -87,9 +92,11 @@ ul li {
 .ten li {
   margin: 20px 0 0 0;
 }
-.ten li:before {
+
+.ten li::before {
   display: none;
 }
+
 .ten .container {
   width: 100%;
   margin: 20px 0 0 -20px;
@@ -103,6 +110,7 @@ ul li {
   border-radius: 3px;
   position: relative;
 }
+
 .fat.divider .pro {
   position: absolute;
   left: 0;
@@ -122,6 +130,7 @@ ul li {
   0% {
     left: 0;
   }
+
   100% {
     left: 95%;
   }
