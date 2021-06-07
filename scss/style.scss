@@ -73,9 +73,12 @@ ul li {
     position: absolute;
     left: 0;
     height: 100%;
-    width: 50%;
+
     background: brown;
 
+  }
+  .first{
+    width: 40%;
   }
   .second{
     width: 65%;
@@ -87,6 +90,15 @@ ul li {
     width: 80%;
   }
   .five{
+    width: 70%;
+  }
+  .six{
+    width: 50%;
+  }
+  .seven{
+    width: 50%;
+  }
+  .eight{
     width: 70%;
   }
 }
